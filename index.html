@@ -9,6 +9,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script  src="./js/script.js">
 <style type="text/css">
 .colorClass
 {
@@ -62,9 +63,40 @@
 </nav>
 
 <div class="container-fluid contain">	
-	<div class="buysell">
+	<div class="card buysell">
+		<div class="card-header">
+			Buy Or Sell
+		</div>
+		<div class="card-body">
+			<div>
+				<button type="button" class="btn btn-outline-success">Success</button>
+				<button type="button" class="btn btn-outline-danger">Danger</button>
+			</div>
 		
+		<br><br>
+		<form>
+			<div class="form-group">
+				<label for="formGroupExampleInput">Price</label>
+				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="TRX">
+			</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput2">Amount</label>
+				<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="TERC">
+			</div>
+			
+		<div class="mn">
+		<input
+			type="range"
+			name="participants"
+			min="0"
+			max="100"
+			value="20"
+		>
+		<span class="rangeslider__tooltip" id ="range-tooltip"></span>
+		</div>
 		
+		</form>
+		</div>
 	</div>
 	
 	<div id="market">
