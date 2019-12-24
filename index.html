@@ -110,10 +110,10 @@
 		</div>
 		<center><button type="button" class="btn btn-success" style="align-content:center;width:70%;" id="buysell_button">Buy</button></center>
 		<p><center>Trading fees apply for buy and sell orders. For more info about trading fees, <a href="#">See here.</a></center></p>
-		<br><br>
+		<br><br><br><br><br><br>
 		<p><center>Copyright © 2019 Promenant Inc. All rights reserved.</center></p>
 		<center><a href="#">Terms of ServicePrivacy Policy</a></center>
-		
+		<br><br><br><br><br><br>
 		
 		</form>
 		</div>
@@ -364,7 +364,16 @@
     
 </div>
 <div id="Accordion1" style="position:absolute;top:16.1%;width:19%;height:60%;left:18.8%;">
-  <h3><a href="#">Order Book</a></h3>
+  <h3><a href="#">Order Book
+  			<div style="width:auto;">
+  				<select style="color:blue;font-size:10px;">
+                	<option value="0">0 decimals</option>
+                    <option value="1">1 decimals</option>
+                    <option value="2">something1</option>
+                    <option value="3">something2</option>
+                </select>
+            </div>	
+  </a></h3>
   	<div style="background-color:#DADADA;">
   		<table id="head_transactions">
         	<tr style="border-bottom: 1px solid indigo; color:indigo;width:100%;">
@@ -637,7 +646,7 @@
 
 	<br><br>
 
-<div class="tabset" style="position:relative;padding:10px;left:17%;border:solid 3px indigo;border-top-left-radius:25px;border-top-right-radius:25px;">
+<div class="tabset" style="position:absolute;margin-top:3%;top:100%;width:80%;padding:10px;left:19%;border:solid 1px indigo;border-top-left-radius:25px;border-top-right-radius:25px;">
   <!-- Tab 1 -->
   <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
   <label for="tab1" style="color:green;font-weight:bolder;font-size:1.2em">Open Order</label>
@@ -693,6 +702,9 @@
   
 </div>
 
+<div class="footer" style="margin-top:10%;top:122%;left:50%;position:absolute;">
+	<a href="#" class="to-top" style="text-decoration:none;">Back to top</a>
+</div>
 
 <script type="text/javascript">
 $(function() {
