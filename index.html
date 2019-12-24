@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style2.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -633,12 +634,73 @@
           
   </div>
 </div>
+
+	<br><br>
+
+<div class="tabset" style="position:relative;padding:10px;left:17%;border:solid 3px indigo;border-top-left-radius:25px;border-top-right-radius:25px;">
+  <!-- Tab 1 -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+  <label for="tab1" style="color:green;font-weight:bolder;font-size:1.2em">Open Order</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+  <label for="tab2" style="color:green;font-weight:bolder;font-size:1.2em;">Order History</label>
+  
+  <div class="tab-panels">
+    <section id="marzen" class="tab-panel">
+ <table class="table">
+  <thead class="thead-dark" >
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Pair</th>
+      <th scope="col">Side</th>
+      <th scope="col">Price</th>
+      <th scope="col">Filled</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Free(TRX)</th>
+      <th scope="col">Discount(TRX)</th>
+      <th scope="col">Total(TRX)</th>
+      <th scope="col">Operation</th>
+    </tr>
+  </thead>
+  <tbody>
+  <!--Some data-->
+  </tbody>
+</table>
+  </section>
+    <section id="rauchbier" class="tab-panel">
+      <table class="table">
+  <thead class="thead-dark" >
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Pair</th>
+      <th scope="col">Side</th>
+      <th scope="col">Price</th>
+      <th scope="col">Average</th>
+      <th scope="col">Filled</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Free(TRX)</th>
+      <th scope="col">Discount(TRX)</th>
+      <th scope="col">Total(TRX)</th>
+      <th scope="col">Operation</th>
+    </tr>
+  </thead>
+  <tbody>
+  <!--Some data-->
+  </tbody>
+ </table>
+    </section>
+  </div>
+  
+</div>
+
+
 <script type="text/javascript">
 $(function() {
 	$( "#Accordion1" ).accordion(); 
 });
 </script>
 
+		
 		
 
 </body>
