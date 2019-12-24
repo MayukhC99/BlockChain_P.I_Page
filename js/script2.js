@@ -20,4 +20,6 @@ $(function(){
 			buysell_btn.text('Sell');
 		}
 	})
+	
+	
 })

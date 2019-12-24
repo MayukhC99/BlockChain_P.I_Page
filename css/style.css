@@ -271,4 +271,9 @@ th{
 	flex-wrap:wrap;
 }*/
  
+ #Accordion1 div{
+	 //background-color:black;
+	 color: black;
+	 font-weight:bolder;
+ }
 
