@@ -29,11 +29,11 @@ html {
 	position: absolute;
 	margin:10px;
 	margin-top:16.5vh;
-	left:112vh;
+	left:1000px;
 	background-color:black;
 	border:solid black 3px;
-	width:24vh;
-	height:33vh;
+	width:220px;
+	height:300px;
 }
 
 #Transactions{
@@ -43,11 +43,11 @@ html {
 	position: absolute;
 	margin:10px;
 	margin-top:51vh;
-	left:112vh;
+	left:1000px;
 	background-color:black;
 	border:solid black 3px;
-	width:24vh;
-	height:40vh;
+	width:220px;
+	height:420px;
 }
 
 .form-control:focus {
@@ -112,8 +112,8 @@ table{
 
 .buysell{
 	top:16.5vh;
-	width:24vh;
-	height:100vh;
+	width:200px;
+	height:600px;
 }
 
 
