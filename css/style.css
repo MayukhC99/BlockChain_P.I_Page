@@ -62,8 +62,9 @@ html {
 
 body {
   background: #ffd89b;
-  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  //background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
   background: linear-gradient(to right, #ffd89b, #19547b);
+  //background-repeat: repeat-y;
   min-height: 100vh;
   min-width: 100vh;
 }
